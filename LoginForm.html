@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+<link rel="stylesheet" type="text/css" href="loginForm.css">
+</head>
+<body>
+
+	<form name="myForm" action="Dashboard.html" onsubmit="return validateLoginForm()" method="post">
+		
+	<div class="container">
+			Welcome back!
+		<input type="text" name="username" placeholder="Email Address" required><br>
+
+		<input type="Password" name="password" placeholder="Password" required><br>
+
+		<button type="submit">Login</button><br><br>
+		
+		<input type="checkbox" checked="checked">Remember me<br>
+
+		<span class="psw">Forgot <a href="ForgotPassword.html">password?</a></span><br>
+
+		<span class="register">Don't have an account?<a href="RegisterForm.html">Get Started</a></span>
+	</div>
+
+	</form>
+</body>
+</html>
